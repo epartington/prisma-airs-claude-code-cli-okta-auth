@@ -39,3 +39,10 @@ Rewrite or author all technical instructions, descriptions, and procedures stric
 ### 7. Safety Callouts
 - Format hazard notices as **WARNING** (risk of injury/death), **CAUTION** (risk of equipment damage), or **NOTE** (clarification). 
 - Place warnings immediately before the affected step.
+
+### 8. Project Vocabulary Exceptions
+- These software terms are not in the standard ASD-STE100 vocabulary. Keep them as-is.
+  Do not replace them with plain words.
+  - **endpoint**
+  - **token**
+  - **deploy**
