@@ -4,7 +4,7 @@ set -euo pipefail
 
 OKTA_DOMAIN="${OKTA_DOMAIN:-"https://your-org.okta.com"}"
 CLIENT_ID="${OKTA_CLIENT_ID:-"0oa1b2c3d4YourClientId"}"
-REDIRECT_PORT="${OKTA_REDIRECT_PORT:-"9876"}"
+REDIRECT_PORT="${OKTA_REDIRECT_PORT:-"8080"}"
 REDIRECT_URI="http://localhost:${REDIRECT_PORT}/callback"
 SCOPES="openid profile email offline_access"
 AUDIENCE="${OKTA_AUDIENCE:-"api://default"}"

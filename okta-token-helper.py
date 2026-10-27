@@ -17,7 +17,7 @@ import urllib.error
 # --- Okta configuration (override via env vars; do not hardcode real values here) ---
 OKTA_DOMAIN = os.environ.get("OKTA_DOMAIN", "https://your-org.okta.com")
 CLIENT_ID = os.environ.get("OKTA_CLIENT_ID", "0oa1b2c3d4YourClientId")
-REDIRECT_PORT = int(os.environ.get("OKTA_REDIRECT_PORT", "9876"))
+REDIRECT_PORT = int(os.environ.get("OKTA_REDIRECT_PORT", "8080"))
 AUDIENCE = os.environ.get("OKTA_AUDIENCE", "api://default")
 AUTH_SERVER = os.environ.get("OKTA_AUTH_SERVER", "default")
 # Optional: path to a CA bundle (PEM) to trust in addition to the system default,
